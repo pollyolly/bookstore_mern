@@ -24,3 +24,9 @@ Fix Path:
 $ sudo apt-get install --reinstall nodejs-legacy
 
 ```
+### Event Error
+```
+throw er; // Unhandled 'error' event
+
+$sudo killall -9 node
+```
