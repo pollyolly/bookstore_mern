@@ -26,7 +26,7 @@ useEffect(()=>{
     axios.post(`${config.apiUrl}/books/delete`,{ id })
     .then((response)=>{
       setLoading(false)
-      navigate('/books');
+      navigate('/bookstore');
     })
     .catch((error)=>{
       setLoading(false)

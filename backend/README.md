@@ -20,4 +20,3 @@ Allow use of es6 module (import and export)
 $npm run start
 $npm run dev
 ```
-

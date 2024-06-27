@@ -20,7 +20,7 @@ function CreateBook() {
         axios.post(`${config.apiUrl}/books/create`, data)
         .then((response)=>{
             setLoading(false)
-            navigate('/books')
+            navigate('/bookstore')
         }).catch((error)=>{
             setLoading(false)
             console.log(error.message);

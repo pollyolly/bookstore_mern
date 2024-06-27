@@ -35,7 +35,7 @@ function EditBook() {
         axios.put(`${config.apiUrl}/books/update`, data)
         .then((response)=>{
             setLoading(false)
-            navigate('/books')
+            navigate('/bookstore')
         }).catch((error)=>{
             setLoading(false)
             console.log(error.message);

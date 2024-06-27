@@ -9,11 +9,11 @@ import HomeBook from './pages/HomeBook';
 function App() {
   return (
     <Routes>
-      <Route path='/books' element={<HomeBook/>} />
-      <Route path='/books/create' element={<CreateBook />} />
-      <Route path='/books/edit/:id' element={<EditBook/>} />
-      <Route path='/books/details/:id' element={<ShowBook/>} />
-      <Route path='/books/delete/:id' element={<DeleteBook/>} />
+      <Route path='/bookstore' element={<HomeBook/>} />
+      <Route path='/bookstore/create' element={<CreateBook />} />
+      <Route path='/bookstore/edit/:id' element={<EditBook/>} />
+      <Route path='/bookstore/details/:id' element={<ShowBook/>} />
+      <Route path='/bookstore/delete/:id' element={<DeleteBook/>} />
     </Routes>
   )
 }
