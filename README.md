@@ -1,14 +1,14 @@
 ### bookstore-mern
-```
+```bash
 $cd frontend/
 $npm run dev
 ```
-```
+```bash
 $cd backend/
 $npm run dev
 ```
 ### Update Node Js
-```
+```bash
 $ sudo npm cache clean -f
 $ sudo npm install -g n
 
@@ -25,13 +25,13 @@ $ sudo apt-get install --reinstall nodejs-legacy
 
 ```
 ### Event Error
-```
+```bash
 throw er; // Unhandled 'error' event
 
 $sudo killall -9 node
 ```
 ### NginX Config
-```
+```nginx
 server {
         listen 80;
         listen [::]:80;
