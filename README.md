@@ -1,14 +1,14 @@
 ### bookstore-mern
-```bash
+```vim
 $cd frontend/
 $npm run dev
 ```
-```bash
+```vim
 $cd backend/
 $npm run dev
 ```
 ### Update Node Js
-```bash
+```vim
 $ sudo npm cache clean -f
 $ sudo npm install -g n
 
@@ -25,7 +25,7 @@ $ sudo apt-get install --reinstall nodejs-legacy
 
 ```
 ### Event Error
-```bash
+```vim
 throw er; // Unhandled 'error' event
 
 $sudo killall -9 node
